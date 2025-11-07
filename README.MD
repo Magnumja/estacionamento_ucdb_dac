@@ -69,6 +69,6 @@ Controla o **tempo de permanência** de um veículo no estacionamento.
 **Métodos:**
 - `encerrarSessao()` – calcula o valor da sessão com base no tempo:
   ```java
-  double valorFinal = minutos <= 15 ? 0 : (minutos - 15) * 0.5;
+  double valorFinal = minutos <= 15 ? 0 : 9;
   this.valor = BigDecimal.valueOf(valorFinal);
 
